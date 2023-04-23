@@ -1,3 +1,3 @@
 [submodule "miniProgram"]
 	path = miniProgram
-	url = git@github.com:StLin-JhLz/BuaaCourseReview_WxMiniProgram.git
+	url = https://github.com/StLin-JhLz/BuaaCourseReview_WxMiniProgram
