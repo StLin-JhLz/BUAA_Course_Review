@@ -1,3 +1,9 @@
 [submodule "miniProgram"]
 	path = miniProgram
 	url = https://github.com/StLin-JhLz/BuaaCourseReview_WxMiniProgram
+[submodule "backend"]
+	path = backend
+	url = https://github.com/hdd1211/BuaaClass_Backend
+[submodule "managerFrontend"]
+	path = managerFrontend
+	url = https://github.com/hdd1211/BuaaClass_Frontend
