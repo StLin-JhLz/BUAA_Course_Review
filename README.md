@@ -4,6 +4,10 @@
 
 
 
+**主仓库谨慎使用`git add .`!! **
+
+
+
 1. 克隆本仓库：使用recursive
 
    ```
@@ -27,4 +31,3 @@
    git submodule add miniProgram_http_path miniProgram
    ```
 
-   
