@@ -1,10 +1,10 @@
-父子仓库使用方法（使用git submodule）
+父子仓库使用方法（使用git submodule）目标：保证服务器上的代码永远是正确可运行的
 
 注：以下内容参见[SnapdragonLee/Newbee-English: 软件工程 Newbee-English 项目 总仓库 (github.com)](https://github.com/SnapdragonLee/Newbee-MiniProgram/tree/324eacfa197fb2944fb31baa4b3875a060e8e1e3)
 
 
 
-**主仓库谨慎使用`git add .`!! **
+**主仓库不要使用`git add .`，尽量单个文件add**
 
 
 
@@ -23,7 +23,8 @@
 
 3. 标准提交
 
-   平时仅在子仓库文件夹中push，确保代码正确后在主仓库中push，会同步所有子仓库代码
+   1. 平时仅在子仓库文件夹中commit、push
+   2. 需要更新服务器代码（确保所有子仓库代码正确性后）再push主仓库
 
 4. 初始化
 
